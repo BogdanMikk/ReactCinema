@@ -13,4 +13,4 @@ export default KEYS;
 ```
 
 4. npm start
-Open your browser and go to http://localhost:8888
+5. Open your browser and go to http://localhost:8888
