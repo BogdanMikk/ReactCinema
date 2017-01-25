@@ -3,18 +3,12 @@
 1. npm install babel webpack -g
 2. npm install
 3. ./src/utils/KEYS.js
-
+```
 let KEYS = {
   API_KEY: "YOUR KEY"
 }
 
 export default KEYS;
-
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
 }
 ```
 
