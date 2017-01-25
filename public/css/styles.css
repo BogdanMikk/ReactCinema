@@ -1,0 +1,148 @@
+body {
+	background-color: #000;
+}
+.container-fluid {
+	margin-bottom: 20px;
+}
+.actor{
+	width:25%;
+	padding: 10px;
+}
+@media (min-width: 768px) {
+	.modal-dialog {
+	    width: 1090px;
+	    margin: 30px auto;
+	}
+}
+@media (max-width: 1200px) {
+	.modal-dialog {
+	    width: auto;
+	    margin: 30px 10px;
+	}
+}
+
+.modal-footer {
+	border: none;
+}
+
+.ngdialog.ngdialog-theme-default .ngdialog-content {
+	width:100%;
+	background:rgba(18,29,40,0.975);
+	color:white;
+}
+.ngdialog-overlay {
+	background: rgba(18,29,40,0.975);
+}
+
+.textinput{
+	height: 35px;
+	width: 250px;
+	border: 3px solid #d22020;
+	background-color: #fff;
+	color: #d22020;
+	letter-spacing: 1px;
+}
+
+.btn {
+	height: 35px;
+	border: 3px solid #d22020;
+	background:none;
+	color: #d22020;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	outline: 0 none;
+}
+
+.btn-primary {
+	background: #0099cc;
+	color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	background: #33a6cc;
+}
+
+.btn-primary:active, .btn-primary.active {
+	background: #007299;
+	box-shadow: none;
+}
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+}
+.btn-primary.outline {
+	border: 2px solid #0099cc;
+	color: #0099cc;
+}
+
+#topBanner {
+	padding: 140px 0;
+	text-align: center;
+	background: url('../imgs/theater.jpg') no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color:white;
+}
+
+.overlay-text{
+	top: 33%;
+	text-align: center;
+	color: #fff;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	padding:15px;
+}
+
+.space{
+	position:relative;
+	padding-top:20px;
+	text-align:center;
+}
+.wrapper{
+	position:relative;
+	background-color:#1a1a1a;
+	 display:inline-block;
+	 cursor:pointer;
+}
+
+.wrapper:hover .overlay-text
+{
+	-webkit-transition: all 900ms ease;
+	-moz-transition: all 900ms ease;
+	-ms-transition: all 900ms ease;
+	-o-transition: all 900ms ease;
+	transition: all 900ms ease;
+	opacity: 1;
+}
+
+.wrapper:hover img
+{
+	-webkit-transition: all 900ms ease;
+	-moz-transition: all 900ms ease;
+	-ms-transition: all 900ms ease;
+	-o-transition: all 900ms ease;
+	transition: all 900ms ease;
+	opacity: 0.25;
+}
+
+.posterImage {
+	max-width: 100%;
+	max-height:350px;
+	opacity: 1;
+	filter: alpha(opacity=40);
+}
+
+.posterImage:hover {
+	-webkit-transition: all 900ms ease;
+	-moz-transition: all 900ms ease;
+	-ms-transition: all 900ms ease;
+	-o-transition: all 900ms ease;
+	transition: all 500ms ease;
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}
