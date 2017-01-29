@@ -8,7 +8,7 @@ import {
   GraphQLID,
   GraphQLBoolean,
   GraphQLFloat
-} from 'graphql'
+} from 'graphql';
 
 import fetch from 'isomorphic-fetch';
 import KEYS from "../utils/KEYS";
